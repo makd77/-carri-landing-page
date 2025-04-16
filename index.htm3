@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carri | Roadside Assistance App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/images/carri_logo.png" alt="Carri Logo" style="width: 180px;">
+        <h1>Carri - Roadside Assistance App</h1>
+        <p>Based in Richmond, Virginia, USA</p>
+        <nav>
+            <a href="#join">Join as a Driver</a> | 
+            <a href="#support">Support</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Why Carri is Different?</h2>
+        <p>Just like you request a ride from Uber, now you can request roadside assistance through Carri.</p>
+        <ul>
+            <li>No hidden fees</li>
+            <li>Fixed 10% company share — the rest goes directly to the driver</li>
+            <li>Fast, reliable, and based in the U.S.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>ليش Carri مختلف؟</h2>
+        <p>تمامًا زي ما بتطلب توصيلة من Uber، تقدر تطلب مساعدة على الطريق من Carri.</p>
+        <ul>
+            <li>ما في رسوم خفية</li>
+            <li>نسبة ثابتة: 10% فقط، والباقي بيروح مباشرة للسائق</li>
+            <li>خدمة سريعة، موثوقة، ومن أمريكا</li>
+        </ul>
+    </section>
+
+    <section id="join">
+        <h2>انضم كسائق | Join as a Driver</h2>
+        <form>
+            <label>الاسم الكامل | Full Name:</label><br>
+            <input type="text" name="fullname"><br>
+            <label>رقم الجوال | Phone:</label><br>
+            <input type="tel" name="phone"><br>
+            <label>البريد الإلكتروني | Email:</label><br>
+            <input type="email" name="email"><br>
+            <label>المدينة / الولاية | City / State:</label><br>
+            <input type="text" name="location"><br>
+            <label>نوع السيارة (اختياري) | Vehicle Type (Optional):</label><br>
+            <input type="text" name="vehicle"><br>
+            <label>ملاحظات إضافية | Additional Notes:</label><br>
+            <textarea name="notes"></textarea><br><br>
+            <input type="submit" value="Submit | إرسال">
+        </form>
+    </section>
+
+    <footer>
+        <p>Powered by Golden Touch Technology | Based in Richmond, VA, USA</p>
+    </footer>
+</body>
+</html>
